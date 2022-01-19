@@ -8,10 +8,10 @@ public class DebugFourteen1 extends JFrame
    {
       super("This is my frame");
       setSize(size, size * 2);
-      setDefaultOperation();
+      setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
    }
    public static void main(String[] args)
    {
-      DebugFourteen1 frame = new DebugFourteen(200);
+      DebugFourteen1 frame = new DebugFourteen1(200);
    } 
 }
